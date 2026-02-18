@@ -1,0 +1,4 @@
+gcc -dynamiclib -undefined dynamic_lookup \     
+    -o sliderloop.pd_darwin sliderloop.c \
+    -I/Applications/Pd-0.53-2.app/Contents/Resources/src \
+    -Wall -O2
